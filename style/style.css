@@ -118,15 +118,18 @@ body {
     margin-bottom: 10px;
 }
 
-.tgllahir #buk1 .wrapper {
+.tgllahir .wrapper {
 
     border-radius: 30px;
-    justify-content: center;
     display: flex;
     align-items: center;
     background-color: var(--color3);
-    width: 5px;
+    width: 180px;
     height: 40px;
+}
+
+.tgllahir .wrapper p {
+    margin-left: 20px;
 }
 
 
@@ -139,10 +142,9 @@ body {
 .datainfo .tgllahir {
     margin-top: 30px;
     color: white;
+    justify-self: left;
+    margin-left: -40px;
 }
-
-
-
 
 /* Isi */
 
